@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendemas</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Poppins", sans-serif;
+            background: #f4f8f3;
+            color: #333;
+            padding: 40px;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #ffffff;
+            padding: 40px 50px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #32CD32; 
+            margin-bottom: 10px;
+            font-size: 2.2rem;
+            font-weight: 600;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 1.4rem;
+            color: #444;
+            margin-bottom: 5px;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 1.05rem;
+            margin-bottom: 20px;
+        }
+
+        .line {
+            width: 80px;
+            height: 4px;
+            background: #FFA500;
+            margin: 0 auto 30px auto;
+            border-radius: 2px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table th {
+            background: #32CD32;
+            color: white;
+            padding: 12px;
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        table td {
+            padding: 15px;
+            vertical-align: top;
+            text-align: justify;
+            font-size: 1rem;
+            border-bottom: 1px solid #ddd;
+        }
+
+        table td:first-child {
+            font-weight: 700;
+            color: #000; 
+
+        }
+
+        table img {
+            width: 130px;
+            height: auto;
+            border-radius: 10px;
+            display: block;
+            margin: auto;
+            transition: transform 0.3s;
+        }
+
+        table img:hover {
+            transform: scale(1.08);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            table, tr, th, td {
+                display: block;
+                width: 100%;
+            }
+
+            th {
+                text-align: left;
+            }
+
+            td img {
+                margin-top: 10px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <h2>Vamos a conocer</h2>
+        <h1>LOS MANGOS</h1>
+        <div class="line"></div>
+
+        <p>
+            Los mangos son divertidos, sabrosos y muy versátiles. Aquí te enseñaremos todas las formas de incorporar mangos en tu vida diaria.
+        </p>
+        
+        <h2>Conoce Nuestra</h2>
+        <h1>Selección</h1>
+        <p>
+            Hay tantos mangos para disfrutar. Pero, ¿cuál es cuál? A continuación tienes tu guía imprescindible de algunas de las variedades más populares en el mercado.
+        </p>
+
+        <table>
+            <tr>
+                <th>Tipo de Mango</th>
+                <th>Descripción</th>
+                <th></th>
+            </tr>
+
+            <tr>
+                <td>Ataulfo</td>
+                <td>Como su nombre sugiere, este mango en particular es de un brillante y vibrante color amarillo, ofrece un aroma tropical y melocotón, y una experiencia de sabor dulce y ácido.</td>
+                <td><img src="images/Mango Ataulfo..png" alt="Mango Ataulfo"></td>
+            </tr>
+
+            <tr>
+                <td>Tommy</td>
+                <td>Este mango ofrece pequeños y sutiles toques de aroma a frutas tropicales y cítricos. El sabor es más ácido que dulce, y las fibras en toda la pulpa añaden una textura emocionante a cada bocado.</td>
+                <td><img src="images/Mango Tommy..png" alt="Mango Tommy"></td>
+            </tr>
+
+            <tr>
+                <td>Haden</td>
+                <td>Este vibrante lienzo de rojo brillante, verde y amarillo se abre para revelar una mezcla tentadora de dulce, ácido y apenas un toque de amargura tropical.</td>
+                <td><img src="images/Mango Haden..png" alt="Mango Haden"></td>
+            </tr>
+
+            <tr>
+                <td>Kent</td>
+                <td>Este mango es jugoso, dulce y cuenta con un tentador aroma tropical. Su hermosa piel verde oscura protege una pulpa amarilla brillante, convirtiéndolo en el complemento perfecto y colorido para cualquier plato.</td>
+                <td><img src="images/Mango Kent..png" alt="Mango Kent"></td>
+            </tr>
+
+        </table>
+
+    </div>
+</body>
+</html>

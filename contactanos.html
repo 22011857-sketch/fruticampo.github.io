@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - Mango</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            background: #f4f8f3;
+            font-family: "Poppins", sans-serif;
+            line-height: 1.8;
+            color: #333;
+        }
+
+        .contact-box {
+            background: #ffffff;
+            padding: 40px 50px;
+            max-width: 900px;
+            margin: auto;
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #32CD32;
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .line-orange {
+            width: 90px;
+            height: 4px;
+            background: #FFA500;
+            margin: 0 auto 30px auto;
+            border-radius: 2px;
+        }
+
+        label {
+            font-weight: 600;
+            margin-bottom: 5px;
+            display: block;
+            color: #2e7d32;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 18px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-family: "Poppins", sans-serif;
+            transition: all .2s ease;
+            background: #f8fff6;
+        }
+
+        input:focus,
+        select:focus,
+        textarea:focus {
+            border-color: #32CD32;
+            box-shadow: 0px 0px 6px rgba(50,205,50,0.4);
+            outline: none;
+        }
+
+        textarea {
+            resize: none;
+            height: 130px;
+        }
+
+        /* Botón */
+        .btn-enviar {
+            background: #32CD32;
+            color: white;
+            padding: 14px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            width: 100%;
+            transition: .2s;
+            margin-top: 10px;
+        }
+
+        .btn-enviar:hover {
+            background: #2ba82b;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            body {
+                padding: 20px;
+            }
+
+            .contact-box {
+                padding: 30px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="contact-box">
+
+        <h1>Contáctanos</h1>
+        <div class="line-orange"></div>
+
+        <form>
+
+            <!-- Nombre -->
+            <label>Nombre completo</label>
+            <input type="text" placeholder="Escribe tu nombre" required>
+
+            <!-- Telefono -->
+            <label>Teléfono / WhatsApp</label>
+            <input type="text" placeholder="Ej: 311 000 0000" required>
+
+            <!-- Correo -->
+            <label>Correo electrónico</label>
+            <input type="email" placeholder="correo@ejemplo.com" required>
+
+            <!-- Servicio -->
+            <label>Tipo de servicio requerido</label>
+            <select required>
+                <option value="">Selecciona una opción</option>
+                <option>Venta al detalle</option>
+                <option>Venta al mayoreo</option>
+                <option>Productos derivados</option>
+            </select>
+
+            <!-- Ciudad -->
+            <label>Ciudad o Estado</label>
+            <input type="text" placeholder="Ej: Tepic, Nayarit">
+
+            <!-- Mensaje -->
+            <label>Mensaje o detalles del pedido</label>
+            <textarea placeholder="Escribe tu mensaje..."></textarea>
+
+            <!-- Fecha entrega -->
+            <label>Fecha tentativa de entrega (opcional)</label>
+            <input type="date">
+
+            <!-- Botón -->
+            <button type="submit" class="btn-enviar">Enviar mensaje</button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

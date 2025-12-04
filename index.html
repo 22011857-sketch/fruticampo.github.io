@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <img class="f1" src="images/fondo1.png" alt=""> 
+        <div class="menu container">
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="Logo de la empresa"></a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="servicios.html">Servicios</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+
+                            <p id="carrito-vacio" class="mensaje-vacio">Tu carrito está vacío</p>
+                            <p class="total-carrito">Total: <span id="total">$0.00</span></p>
+
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+
+            <div class="header-txt">
+                <h1><span>Bienvenido</span> disfruta de nuestros mangos</h1>
+                <p>
+                    Somos una empresa dedicada a la selección, empaque y comercialización de mango fresco y productos derivados, garantizando calidad, frescura y sabor en cada entrega. Trabajamos de la mano con productores locales para llevar hasta tu mesa lo mejor de nuestra tierra.
+                </p>
+                <a href="informacion.html" class="btn-1">Informacion</a>
+            </div>
+            <div class="header-img">
+                <img src="images/logo.png" alt="logo">
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <section class="fruta container">
+
+        <p>
+            Horario:  9am - 8pm
+        </p>
+
+        <h2>Variedad de Mangos</h2>
+
+
+        <div class="fruta-content">
+            
+            <div class="fruta-1">
+                <img src="images/ataulfo.png" alt="Mango ataulfo">
+                <h3>Ataulfo</h3> 
+            </div>
+
+            <div class="fruta-1">
+                <img src="images/tommy.png" alt="Mango tommy">
+                <h3>Tommy</h3> 
+            </div>
+
+            <div class="fruta-1">
+                <img src="images/haden.png" alt="Mango haden">
+                <h3>Haden</h3> 
+            </div>
+
+            <div class="fruta-1">
+                <img src="images/kent.png" alt="Mango kent">
+                <h3>Kent</h3> 
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="info">
+
+        <div class="info-content container">
+
+            <div class="info-img">
+                <img src="images/imgmango.png" alt="">
+            </div>
+
+            <div class="info-txt">
+                <h2>La mejor calidad de fruta</h2>
+                <p>
+                    <p>
+                        En Fruti Campo seleccionamos cuidadosamente cada mango desde el momento de la cosecha,
+                        asegurándonos de que solo los frutos con el mejor color, aroma y dulzura sean empacados.
+                        Gracias a nuestros procesos de higiene, clasificación y conservación, ofrecemos una fruta fresca, deliciosa y de calidad certificada, lista para disfrutarse en cualquier momento.
+</p>
+
+                </p>
+                <a href="aprendemas.html" class="btn-1">Aprende mas</a>
+            </div>
+
+        </div>
+    </section>
+
+    <main class="products container">
+
+        <h2>Productos</h2>
+
+        <div class="box-container" id="lista-1">
+
+            <div class="box">
+                <img src="images/mnatural.jpeg" alt="">
+                <div class="product-txt">
+                    <h3>Mango Deshidratado Natural</h3>
+                    <p>100 gramos</p>
+                    <p class="precio">$70</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/mchile.jpeg" alt="">
+                <div class="product-txt">
+                    <h3>Mango Deshidratado con Chile</h3>
+                    <p>100 gramos</p>
+                    <p class="precio">$70</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/mpulpa.jpeg" alt="">
+                <div class="product-txt">
+                    <h3>Pulpa de Mango</h3>
+                    <p>1kg</p>
+                    <p class="precio">$145</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/mermelada.jpeg" alt="">
+                <div class="product-txt">
+                    <h3>Mermelada de Mango</h3>
+                    <p>340 gramos</p>
+                    <p class="precio">$67</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/ataulfo.png" alt="Mango ataulfo">
+                <div class="product-txt">
+                    <h3>Mango ataulfo</h3>
+                    <p>1 caja</p>
+                    <p class="precio">$350</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/tommy.png" alt="Mango tommy">
+                <div class="product-txt">
+                    <h3>Mango Tommy</h3>
+                    <p>1 caja</p>
+                    <p class="precio">$180</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/haden.png" alt="Mango haden">
+                <div class="product-txt">
+                    <h3>Mango Haden</h3>
+                    <p>1 caja</p>
+                    <p class="precio">$150</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/kent.png" alt="Mango kent">
+                <div class="product-txt">
+                    <h3>Mango Kent</h3>
+                    <p>1 caja</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="btn-2" id="load-more">Cargar Mas</div>
+
+    </main>
+
+    <section class="opinion container">
+        <span>Opiniones</span>
+        <h2>Que opinan nuestros clientes</h2>
+        <div class="opinion-content">
+            <div class="opinion-1">
+                <p>
+                    Excelente sabor
+                </p>
+                <img src="images/starts.png" alt="puntaje">
+                <h4>Jimena Betancourt</h4>
+            </div>
+            <div class="opinion-1">
+                <p>
+                    Me gusta la calidad
+                </p>
+                <img src="images/starts.png" alt="puntaje">
+                <h4>Tania Avalos</h4>
+            </div>
+
+            <div class="opinion-1">
+                <p>
+                    Excelente producto
+                </p>
+                <img src="images/starts.png" alt="puntaje">
+                <h4>Ivonne Hernandez</h4>
+            </div>
+
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Sobre Nosotros</h3>
+                <ul>
+                    <li><a href="historia.html">Historia de Fruti Campo</a></li>
+                    <li><a href="mision y vision.html">Misión y Visión</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Atención al cliente </h3>
+                <ul>
+                    <li><a href="contactanos.html">Contáctanos </a></li>
+                </ul>
+            </div> 
+            <div class="link">
+                <h3>Recursos de Investigación</h3>
+                <ul>
+                    <li><a href="nutricion y salud.html">Nutrición y Salud</a></li>
+                </ul>
+            </div>  
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
